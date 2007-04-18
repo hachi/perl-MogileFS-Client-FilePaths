@@ -94,6 +94,36 @@ sub new_file {
 
  @files = $mogc->list($path)
 
+ Given a path, returns a list of files contained in that path. Each element of the returned list is a hashref with the following possible keys:
+
+=over
+
+=item name
+
+Contains the name of the file
+
+=item path
+
+Contains the fully qualified path of the file
+
+=item is_directory
+
+True if item is a directory
+
+=item is_file
+
+True if item is a file
+
+=item modified
+
+Value of mtime metadata field stored with this file.
+
+=item size
+
+Size in bytes for this file.
+
+=back
+
 =cut
 
 sub list {
