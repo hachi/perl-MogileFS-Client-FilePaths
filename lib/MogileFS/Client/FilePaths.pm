@@ -161,4 +161,15 @@ sub list {
     return @ret;
 }
 
+sub rename {
+    my $self = shift;
+    my $orig_path = shift;
+    my $new_path = shift;
+
+    my $result = $self->SUPER::filepaths_rename($orig_path, $new_path);
+
+    return 1 if $result;
+    return;
+}
+
 1;
