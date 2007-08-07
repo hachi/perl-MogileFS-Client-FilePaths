@@ -46,7 +46,7 @@ All methods are inhereted and usable from the MogileFS::Client library, with onl
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 $VERSION = eval $VERSION;
 
 use base 'MogileFS::Client';
