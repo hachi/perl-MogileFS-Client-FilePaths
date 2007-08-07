@@ -161,6 +161,14 @@ sub list {
     return @ret;
 }
 
+=head2 rename
+
+ $rv = $mogc->rename($oldpath, $newpath)
+
+Attempts to rename $oldpath to $newpath, returns true on success and false on failure.
+
+=cut
+
 sub rename {
     my $self = shift;
     my $orig_path = shift;
