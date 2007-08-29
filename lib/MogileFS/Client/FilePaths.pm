@@ -180,4 +180,18 @@ sub rename {
     return;
 }
 
+=head2 filepaths_enable
+
+ $mogc->filepaths_enable;
+
+Enable the filepaths extensions on the current mogile cluster and domain.
+
+=head2 filepaths_disable
+
+ $mogc->filepaths_disable;
+
+Disable the filepaths extensions on the current mogile cluster and domain.
+
+=cut
+
 1;
