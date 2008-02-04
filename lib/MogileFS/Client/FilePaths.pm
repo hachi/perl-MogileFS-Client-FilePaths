@@ -49,6 +49,7 @@ use warnings;
 our $VERSION = '0.02';
 $VERSION = eval $VERSION;
 
+use MogileFS::Client 1.05;  # create_close_args was added in 1.05 and we require that
 use base 'MogileFS::Client';
 
 =head1 METHOD CHANGES
