@@ -39,7 +39,7 @@ MogileFS::Client::FilePaths - Client library for use with FilePaths plugin in Mo
 This module is a subclass of the MogileFS::Client library, it provides a similar interface for extra functionality
 provided in the FilePaths plugin.
 
-All methods are inhereted and usable from the MogileFS::Client library, with only the exceptions listed below.
+All methods are inherited and usable from the MogileFS::Client library, with only the exceptions listed below.
 
 =cut
 
